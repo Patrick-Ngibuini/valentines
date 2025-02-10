@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Valentine's Day Surprise</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="start-screen" class="screen">
+    <button id="start-button">Start</button>
+  </div>
+
+  <div id="valentine-screen" class="screen hidden">
+    <h1>Frenchie, Will you be my Valentine?</h1>
+    <p id="response-text" class="hidden"></p>
+    <div class="buttons">
+      <button id="yes-button">Yes</button>
+      <button id="no-button">No</button>
+    </div>
+  </div>
+
+  <div id="grid-screen" class="screen hidden">
+    <h1>Yay! Look, it's us! ❤️</h1>
+    <div id="image-grid">
+      <img src="37E3E249-3BDF-4F9F-83A2-DD11A9CE7149.jpeg" alt="Memory 1">
+      <img src="EE332D4B-A8D5-4C43-AA4B-99E0F0673957.jpeg" alt="Memory 2">
+      <img src="IMG_1019 2.jpeg" alt="Memory 3">
+      <img src="IMG_1092.jpeg" alt="Memory 4">
+      <img src="IMG_8604.jpeg" alt="Memory 5">
+      <img src="IMG_8708.jpeg" alt="Memory 6">
+      <img src="IMG_8799.jpeg" alt="Memory 7">
+      <img src="IMG_8826.jpeg" alt="Memory 8">
+    </div>
+    <button id="click-me-button">Click Me!</button>
+  </div>
+
+  <!-- Letter Screen -->
+  <div id="letter-screen" class="screen hidden">
+    <div id="letter">
+      <h2>To My Frenchie,</h2>
+      <p id="letter-message">
+        I know that I took my time with asking you to be my valentine and I'm honsetly really surprised by your patience. 
+        I hope this little gesture puts a little smile on your face and most importantly, hope you liked it. 
+        You're my favourite person in the world and I can only imagine how miserble valentine's day would be without 
+        you ❤️. 
+
+        Kisses 😘. 
+
+      </p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
